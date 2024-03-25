@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(255,105,0,255);
+    padding: 10px 0px;
+}
+
+/* INIZIO HEADER */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 58px;
+}
+
+.alaing-items-center{
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.height-58 {
+    height: 58px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.top-0 {
+    top: 0px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.categorie-1{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.py-18{
+    padding: 18px 0;
+}
+
+.entity{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+.py-top-bottom-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 100px;
+}
+
+.discount-label{
+    position: absolute;
+    top: 450px;
+    right: 308px;
+    color: white;
+}
+
+.discount-label-1{
+    position: absolute;
+    top: 450px;
+    right: 222px;
+    color: white;
+}
+
+.discount-label-2{
+    position: absolute;
+    top: 450px;
+    right: 260px;
+    color: white;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.marca{
+    position: absolute;
+    top: 600px;
+    left: 25px;
+}
+
+.info{
+    position: absolute;
+    top: 615px;
+    left: 25px;
+}
+
+.prezzo{
+    position: absolute;
+    top: 630px;
+    left: 25px;
+}
+
+.prezzo-rosso{
+    color: red;
+    padding-right: 10px;
+}
+
+.marca-2{
+    position: absolute;
+    top: 600px;
+    left: 425px;
+}
+
+.info-2{
+    position: absolute;
+    top: 615px;
+    left: 425px;
+}
+
+.prezzo-2{
+    position: absolute;
+    top: 630px;
+    left: 425px;
+}
+
+.marca-3{
+    position: absolute;
+    top: 600px;
+    left: 825px;
+}
+
+.info-3{
+    position: absolute;
+    top: 615px;
+    left: 825px;
+}
+
+.prezzo-3{
+    position: absolute;
+    top: 630px;
+    left: 825px;
+}
+
+.marca-4{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+
+.info-4{
+    position: absolute;
+    top: 515px;
+    left: 0px;
+}
+
+.prezzo-4{
+    position: absolute;
+    top: 530px;
+    left: 0px;
+}
