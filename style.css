@@ -45,3 +45,102 @@ header{
 }
 /* FINE HEADER */
 
+/* INIZIO MAIN */
+main{
+    padding: 75px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 3);
+}
+
+.content{
+    margin: 10px;
+}
+
+.content img {
+    width: 100%;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.card-text p{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.price{
+    font-weight: 700;
+    color: red;
+    font-size: 14px;
+}
+
+.old-price{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.card-image{
+    position: relative;
+}
+
+.labels {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    display: flex;
+}
+
+.label{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px;
+    color: white;
+    margin-right: 5px;
+    
+}
+
+.red-label {
+    background-color: red;
+}
+
+.green-label{
+    background-color: green; 
+}
+
+.heart{
+    background-color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.hover-image{
+    display: none;
+}
+
+.card-image:hover .main-image{
+    display: none;
+}
+
+.card-image:hover .hover-image{
+    display: inline-block;
+}
+
+.heart:hover{
+    color: red;
+}
+/* FINE MAIN */
